@@ -19,3 +19,13 @@ pip install SpeechRecognition pyttsx3 requests
 4. The script will recognize the speech, fetch the weather information for the specified city, and provide the current temperature and weather description.
 5. You can exit the application by saying "exit" or "quit."
 
+# Configuration
+
+Replace the placeholder API key in the headers dictionary with your RapidAPI key.
+
+```
+headers = {
+    "X-RapidAPI-Key": "your_rapidapi_key",
+    "X-RapidAPI-Host": "open-weather13.p.rapidapi.com"
+}
+```
