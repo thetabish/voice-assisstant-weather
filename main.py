@@ -35,7 +35,7 @@ def listen():
 def get_weather(city):
     url = f"https://open-weather13.p.rapidapi.com/city/{city}"
     headers = {
-        "X-RapidAPI-Key": "96b984a847mshe62513c2729eea7p111b26jsn2122be525018",
+        "X-RapidAPI-Key": "YOUR-API-KEY",
         "X-RapidAPI-Host": "open-weather13.p.rapidapi.com"
     }
 
